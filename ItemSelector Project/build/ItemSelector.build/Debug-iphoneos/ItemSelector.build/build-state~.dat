@@ -1,0 +1,635 @@
+TItemSelector
+v7
+r0
+t297848166.025634
+cCheck dependencies
+cCpResource build/Debug-iphoneos/ItemSelector.app/ResourceRules.plist /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/Info.plist ItemSelector-Info.plist
+cCompileXIB /Users/iphonedev/Documents/Stage/Framework/ItemSelector/MainWindow.xib
+cCopyPNGFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item1.png item1.png
+cCopyPNGFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item2.png item2.png
+cCopyPNGFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item3.png item3.png
+cCopyPNGFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item4.png item4.png
+cCopyPNGFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/overflowMax.png "Item Selector Framework/../overflowMax.png"
+cCopyPNGFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/overflowMin.png "Item Selector Framework/../overflowMin.png"
+cCopyPNGFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item5.png item5.png
+cCopyPNGFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item6.png item6.png
+cProcessPCH /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-bmldcrnanyroieesbuapiyjnmegt/ItemSelector_Prefix.pch.gch ItemSelector_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dbclyfwddtulkigqkiisxmdeylbk/ItemSelector_Prefix.pch.gch ItemSelector_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/main.o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelectorAppDelegate.o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/ItemSelectorAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelector.o "/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/ItemSelector.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/AppController.o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/AppController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelector normal armv6
+cCompileC build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/main.o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelectorAppDelegate.o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/ItemSelectorAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelector.o "/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/ItemSelector.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/AppController.o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/AppController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelector normal armv7
+cCreateUniversalBinary /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/ItemSelector normal "armv6 armv7"
+cGenerateDSYMFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app.dSYM /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/ItemSelector
+cProcessProductPackaging "/Users/iphonedev/Library/MobileDevice/Provisioning Profiles/D4CC2514-7864-4288-9DE7-4AF2BA8CA315.mobileprovision" /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/embedded.mobileprovision
+cTouch /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app
+cProcessProductPackaging /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector.xcent
+cCodeSign /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app
+
+N/Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004BEBA19E0000000000000110
+t1273733534
+s272
+
+N/Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004BD905DB00000000000001A7
+t1272514011
+s423
+
+N/Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004BD905DB00000000000001E5
+t1272514011
+s485
+
+N/Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BEA3D0F000000000034A850
+t1273642255
+s3450960
+
+N/Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BEA43F000000000003E1D30
+t1273644016
+s4070704
+
+N/Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BEA43CC0000000000001466
+t1273643980
+s5222
+
+N/Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CALayer.h
+c000000004BEA471F00000000000075CA
+t1273644831
+s30154
+
+N/Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004BEA471E00000000000000C4
+t1273644830
+s196
+
+N/Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004BEA49AB0000000000253180
+t1273645483
+s2437504
+
+N/Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BEA51B400000000000009CD
+t1273647540
+s2509
+
+N/Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BEA52CC0000000002D51C40
+t1273647820
+s47520832
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/AppController.h
+c000000004C0E618700000000000000F5
+t1276010887
+s245
+i<UIKit/UIKit.h>
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/AppController.m
+c000000004C0F97E30000000000000BEB
+t1276090339
+s3051
+i"AppController.h"
+i"ItemSelector.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/ItemSelector.h
+c000000004C0F890900000000000002EB
+t1276086537
+s747
+i<UIKit/UIKit.h>
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/ItemSelectorAppDelegate.h
+c000000004C0F608200000000000001C8
+t1276076162
+s456
+i<UIKit/UIKit.h>
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/ItemSelectorAppDelegate.m
+c000000004C0F91F3000000000000040B
+t1276088819
+s1035
+i"ItemSelectorAppDelegate.h"
+i"AppController.h"
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/../overflowMax.png
+c000000004C0F5C97000000000000073E
+t1276075159
+s1854
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/../overflowMin.png
+c000000004C0F5C9700000000000005F0
+t1276075159
+s1520
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/ItemSelector.h
+c000000004C0FB8FE00000000000002E6
+t1276098814
+s742
+i<UIKit/UIKit.h>
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/ItemSelector.m
+c000000004C109491000000000000166C
+t1276155025
+s5740
+i"ItemSelector.h"
+i<QuartzCore/CALayer.h>
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/ItemSelector_Prefix.pch
+c000000004C0D116B00000000000000C1
+t1275924843
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/MainWindow.xib
+c000000004C0F60860000000000003FB6
+t1276076166
+s16310
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app
+t1276155365
+s612
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app.dSYM
+t1276155361
+s102
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/Info.plist
+t1276155325
+s846
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/ItemSelector
+t1276155360
+s65488
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/MainWindow.nib
+t1276155330
+s1032
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/PkgInfo
+t1276155325
+s8
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/ResourceRules.plist
+t1276155325
+s485
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/embedded.mobileprovision
+t1276155361
+s8281
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item1.png
+t1276155331
+s9014
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item2.png
+t1276155331
+s9709
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item3.png
+t1276155331
+s8581
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item4.png
+t1276155331
+s8398
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item5.png
+t1276155331
+s7313
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item6.png
+t1276155331
+s8566
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/overflowMax.png
+t1276155331
+s1100
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/overflowMin.png
+t1276155331
+s1111
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector.xcent
+t1276155361
+s438
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/AppController.o
+t1276155344
+s44824
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelector
+t1276155345
+s28840
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelector.LinkFileList
+c000000004C1095BD0000000000000260
+t1276155325
+s608
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelector.o
+t1276155344
+s54252
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelectorAppDelegate.o
+t1276155343
+s47940
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/main.o
+t1276155343
+s6492
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/AppController.o
+t1276155359
+s44644
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelector
+t1276155360
+s28624
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelector.LinkFileList
+c000000004C1095BD0000000000000260
+t1276155325
+s608
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelector.o
+t1276155359
+s53372
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelectorAppDelegate.o
+t1276155355
+s47784
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/main.o
+t1276155352
+s6476
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/item1.png
+c000000004C0D15F50000000000002032
+t1275926005
+s8242
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/item2.png
+c000000004C0D15FF000000000000223A
+t1275926015
+s8762
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/item3.png
+c000000004C0D15E90000000000001ECD
+t1275925993
+s7885
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/item4.png
+c000000004C0D15EE0000000000001DD5
+t1275925998
+s7637
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/item5.png
+c000000004C0E663A00000000000019D8
+t1276012090
+s6616
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/item6.png
+c000000004C0E66480000000000001E7D
+t1276012104
+s7805
+
+N/Users/iphonedev/Documents/Stage/Framework/ItemSelector/main.m
+c000000004C0D116B0000000000000169
+t1275924843
+s361
+i<UIKit/UIKit.h>
+
+N/Users/iphonedev/Library/MobileDevice/Provisioning Profiles/D4CC2514-7864-4288-9DE7-4AF2BA8CA315.mobileprovision
+c000000004BBEE7550000000000002059
+t1270802261
+s8281
+
+N/var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-bmldcrnanyroieesbuapiyjnmegt/ItemSelector_Prefix.pch.gch
+t1276155338
+s9823792
+
+N/var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dbclyfwddtulkigqkiisxmdeylbk/ItemSelector_Prefix.pch.gch
+t1276155341
+s10290736
+
+NItemSelector-Info.plist
+c000000004C0E45AE000000000000046A
+t1276003758
+s1130
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies297848125#297848125#0(0"0(0#1#0"8621636000#0"0#
+
+CCodeSign /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app
+s297848161.435961
+e297848166.025512
+r1
+xCodeSign
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app
+lSLF07#2@46"CodeSign build/Debug-iphoneos/ItemSelector.app297848161#297848167#0(0"0(0#0#93"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app8623422336#755"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Yann Toupin (Q6SM87TMTF)" --resource-rules=/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/ResourceRules.plist --entitlements /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector.xcent /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app0#
+
+CCompileC build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/AppController.o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/AppController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297848144.086903
+e297848144.265574
+r1
+xCompileC
+xbuild/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/AppController.o
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/AppController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/AppController.m297848144#297848144#0(0"0(0#0#79"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/AppController.m8622359840#2057"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv LANG en_US.US-ASCII    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-generated-files.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-own-target-headers.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-all-target-headers.hmap -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-project-headers.hmap -F/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/include -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources/armv6 -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources -include /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-bmldcrnanyroieesbuapiyjnmegt/ItemSelector_Prefix.pch -c /Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/AppController.m -o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/AppController.o0#
+
+CCompileC build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelector.o "/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/ItemSelector.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297848143.874382
+e297848144.086779
+r1
+xCompileC
+xbuild/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelector.o
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/ItemSelector.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/ItemSelector.m297848143#297848144#0(0"0(0#0#94"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/ItemSelector.m8616059680#2073"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv LANG en_US.US-ASCII    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-generated-files.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-own-target-headers.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-all-target-headers.hmap -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-project-headers.hmap -F/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/include -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources/armv6 -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources -include /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-bmldcrnanyroieesbuapiyjnmegt/ItemSelector_Prefix.pch -c "/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/ItemSelector.m" -o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelector.o0#
+
+CCompileC build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelectorAppDelegate.o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/ItemSelectorAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297848143.704187
+e297848143.874241
+r1
+xCompileC
+xbuild/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelectorAppDelegate.o
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/ItemSelectorAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/ItemSelectorAppDelegate.m297848143#297848143#0(0"0(0#0#89"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/ItemSelectorAppDelegate.m8620974112#2077"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv LANG en_US.US-ASCII    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-generated-files.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-own-target-headers.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-all-target-headers.hmap -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-project-headers.hmap -F/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/include -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources/armv6 -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources -include /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-bmldcrnanyroieesbuapiyjnmegt/ItemSelector_Prefix.pch -c /Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/ItemSelectorAppDelegate.m -o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelectorAppDelegate.o0#
+
+CCompileC build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/main.o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297848142.114421
+e297848143.703944
+r1
+xCompileC
+xbuild/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/main.o
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/main.m297848142#297848143#0(0"0(0#0#62"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/main.m8620543712#2031"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv LANG en_US.US-ASCII    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-generated-files.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-own-target-headers.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-all-target-headers.hmap -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-project-headers.hmap -F/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/include -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources/armv6 -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources -include /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-bmldcrnanyroieesbuapiyjnmegt/ItemSelector_Prefix.pch -c /Users/iphonedev/Documents/Stage/Framework/ItemSelector/main.m -o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/AppController.o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/AppController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297848159.244836
+e297848159.582659
+r1
+xCompileC
+xbuild/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/AppController.o
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/AppController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/AppController.m297848159#297848159#0(0"0(0#0#79"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/AppController.m8620448736#2057"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv LANG en_US.US-ASCII    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-generated-files.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-own-target-headers.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-all-target-headers.hmap -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-project-headers.hmap -F/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/include -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources/armv7 -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources -include /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dbclyfwddtulkigqkiisxmdeylbk/ItemSelector_Prefix.pch -c /Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/AppController.m -o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/AppController.o0#
+
+CCompileC build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelector.o "/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/ItemSelector.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297848155.849779
+e297848159.244640
+r1
+xCompileC
+xbuild/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelector.o
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/ItemSelector.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/ItemSelector.m297848155#297848159#0(0"0(0#0#94"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/ItemSelector.m8620570304#2073"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv LANG en_US.US-ASCII    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-generated-files.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-own-target-headers.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-all-target-headers.hmap -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-project-headers.hmap -F/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/include -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources/armv7 -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources -include /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dbclyfwddtulkigqkiisxmdeylbk/ItemSelector_Prefix.pch -c "/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/ItemSelector.m" -o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelector.o0#
+
+CCompileC build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelectorAppDelegate.o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/ItemSelectorAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297848152.842840
+e297848155.849544
+r1
+xCompileC
+xbuild/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelectorAppDelegate.o
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/ItemSelectorAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/ItemSelectorAppDelegate.m297848152#297848155#0(0"0(0#0#89"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/ItemSelectorAppDelegate.m8622935456#2077"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv LANG en_US.US-ASCII    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-generated-files.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-own-target-headers.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-all-target-headers.hmap -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-project-headers.hmap -F/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/include -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources/armv7 -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources -include /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dbclyfwddtulkigqkiisxmdeylbk/ItemSelector_Prefix.pch -c /Users/iphonedev/Documents/Stage/Framework/ItemSelector/Classes/ItemSelectorAppDelegate.m -o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelectorAppDelegate.o0#
+
+CCompileC build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/main.o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297848145.157583
+e297848152.842590
+r1
+xCompileC
+xbuild/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/main.o
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/main.m297848145#297848152#0(0"0(0#0#62"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/main.m8622812800#2031"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv LANG en_US.US-ASCII    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-generated-files.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-own-target-headers.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-all-target-headers.hmap -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-project-headers.hmap -F/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/include -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources/armv7 -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources -include /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dbclyfwddtulkigqkiisxmdeylbk/ItemSelector_Prefix.pch -c /Users/iphonedev/Documents/Stage/Framework/ItemSelector/main.m -o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/iphonedev/Documents/Stage/Framework/ItemSelector/MainWindow.xib
+s297848125.538791
+e297848131.029200
+r1
+xCompileXIB
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib297848125#297848131#0(0"0(0#0#70"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/MainWindow.xib8624259744#618"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_Beta/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/MainWindow.nib /Users/iphonedev/Documents/Stage/Framework/ItemSelector/MainWindow.xib --sdk /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCopyPNGFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item1.png item1.png
+s297848125.540868
+e297848131.399608
+r1
+xCopyPNGFile
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item1.png
+xitem1.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/ItemSelector.app/item1.png item1.png297848125#297848131#0(0"0(0#0#65"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/item1.png8621109632#634"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv COPY_COMMAND /Developer_Beta/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/iphonedev/Documents/Stage/Framework/ItemSelector/item1.png /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item1.png0#
+
+CCopyPNGFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item2.png item2.png
+s297848131.029399
+e297848131.344792
+r1
+xCopyPNGFile
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item2.png
+xitem2.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/ItemSelector.app/item2.png item2.png297848131#297848131#0(0"0(0#0#65"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/item2.png8623061408#634"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv COPY_COMMAND /Developer_Beta/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/iphonedev/Documents/Stage/Framework/ItemSelector/item2.png /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item2.png0#
+
+CCopyPNGFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item3.png item3.png
+s297848131.344932
+e297848131.658576
+r1
+xCopyPNGFile
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item3.png
+xitem3.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/ItemSelector.app/item3.png item3.png297848131#297848131#0(0"0(0#0#65"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/item3.png8621308576#634"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv COPY_COMMAND /Developer_Beta/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/iphonedev/Documents/Stage/Framework/ItemSelector/item3.png /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item3.png0#
+
+CCopyPNGFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item4.png item4.png
+s297848131.399726
+e297848131.690250
+r1
+xCopyPNGFile
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item4.png
+xitem4.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/ItemSelector.app/item4.png item4.png297848131#297848131#0(0"0(0#0#65"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/item4.png8614644992#634"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv COPY_COMMAND /Developer_Beta/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/iphonedev/Documents/Stage/Framework/ItemSelector/item4.png /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item4.png0#
+
+CCopyPNGFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item5.png item5.png
+s297848131.753519
+e297848131.909267
+r1
+xCopyPNGFile
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item5.png
+xitem5.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/ItemSelector.app/item5.png item5.png297848131#297848131#0(0"0(0#0#65"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/item5.png8620464416#634"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv COPY_COMMAND /Developer_Beta/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/iphonedev/Documents/Stage/Framework/ItemSelector/item5.png /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item5.png0#
+
+CCopyPNGFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item6.png item6.png
+s297848131.792233
+e297848131.912058
+r1
+xCopyPNGFile
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item6.png
+xitem6.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/ItemSelector.app/item6.png item6.png297848131#297848131#0(0"0(0#0#65"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/item6.png8616781792#634"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv COPY_COMMAND /Developer_Beta/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/iphonedev/Documents/Stage/Framework/ItemSelector/item6.png /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/item6.png0#
+
+CCopyPNGFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/overflowMax.png "Item Selector Framework/../overflowMax.png"
+s297848131.658712
+e297848131.753376
+r1
+xCopyPNGFile
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/overflowMax.png
+xItem Selector Framework/../overflowMax.png
+lSLF07#2@110"CopyPNGFile build/Debug-iphoneos/ItemSelector.app/overflowMax.png "Item Selector Framework/../overflowMax.png"297848131#297848131#0(0"0(0#0#98"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/../overflowMax.png8621527680#675"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv COPY_COMMAND /Developer_Beta/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/../overflowMax.png" /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/overflowMax.png0#
+
+CCopyPNGFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/overflowMin.png "Item Selector Framework/../overflowMin.png"
+s297848131.690381
+e297848131.792077
+r1
+xCopyPNGFile
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/overflowMin.png
+xItem Selector Framework/../overflowMin.png
+lSLF07#2@110"CopyPNGFile build/Debug-iphoneos/ItemSelector.app/overflowMin.png "Item Selector Framework/../overflowMin.png"297848131#297848131#0(0"0(0#0#98"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/../overflowMin.png8621005600#675"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv COPY_COMMAND /Developer_Beta/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/iphonedev/Documents/Stage/Framework/ItemSelector/Item Selector Framework/../overflowMin.png" /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/overflowMin.png0#
+
+CCpResource build/Debug-iphoneos/ItemSelector.app/ResourceRules.plist /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s297848125.426939
+e297848125.538676
+r1
+xCpResource
+xbuild/Debug-iphoneos/ItemSelector.app/ResourceRules.plist
+x/Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@99"Copy /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist297848125#297848125#0(0"0(0#0#94"/Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8028903794874265600#539"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_Beta/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app0#
+
+CCreateUniversalBinary /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/ItemSelector normal "armv6 armv7"
+s297848160.602019
+e297848160.796272
+r1
+xCreateUniversalBinary
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/ItemSelector
+xnormal
+xarmv6 armv7
+lSLF07#2@93"CreateUniversalBinary build/Debug-iphoneos/ItemSelector.app/ItemSelector normal "armv6 armv7"297848160#297848160#0(0"0(0#0#67"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/armv6 armv78621111424#636"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelector /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelector -output /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/ItemSelector0#
+
+CGenerateDSYMFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app.dSYM /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/ItemSelector
+s297848160.796505
+e297848161.319578
+r1
+xGenerateDSYMFile
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app.dSYM
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/ItemSelector
+lSLF07#2@110"GenerateDSYMFile build/Debug-iphoneos/ItemSelector.app.dSYM build/Debug-iphoneos/ItemSelector.app/ItemSelector297848160#297848161#0(0"0(0#0#106"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/ItemSelector8620650016#443"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_Beta/usr/bin/dsymutil /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/ItemSelector -o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app.dSYM0#
+
+CLd /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelector normal armv6
+s297848144.265693
+e297848145.157455
+r1
+xLd
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelector
+xnormal
+xarmv6
+lSLF07#2@153"Link /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelector297848144#297848145#0(0"0(0#0#0"8620892256#1016"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos -F/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos -filelist /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelector.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv6/ItemSelector0#
+
+CLd /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelector normal armv7
+s297848159.582783
+e297848160.601598
+r1
+xLd
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelector
+xnormal
+xarmv7
+lSLF07#2@153"Link /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelector297848159#297848160#0(0"0(0#0#0"8624226912#1016"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos -F/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos -filelist /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelector.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/Objects-normal/armv7/ItemSelector0#
+
+CProcessInfoPlistFile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/Info.plist ItemSelector-Info.plist
+s297848125.444963
+e297848125.495056
+r1
+xProcessInfoPlistFile
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/Info.plist
+xItemSelector-Info.plist
+lSLF07#2@31"Process ItemSelector-Info.plist297848125#297848125#0(0"0(0#0#79"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/ItemSelector-Info.plist8622155104#660"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ItemSelector-Info.plist -genpkginfo /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/ResourceRules.plist -o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/Info.plist0#
+
+CProcessPCH /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-bmldcrnanyroieesbuapiyjnmegt/ItemSelector_Prefix.pch.gch ItemSelector_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s297848131.912236
+e297848138.844627
+r1
+xProcessPCH
+x/var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-bmldcrnanyroieesbuapiyjnmegt/ItemSelector_Prefix.pch.gch
+xItemSelector_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile ItemSelector_Prefix.pch297848131#297848138#0(0"0(0#0#79"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/ItemSelector_Prefix.pch8590258432#1907"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv LANG en_US.US-ASCII    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-generated-files.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-own-target-headers.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-all-target-headers.hmap -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-project-headers.hmap -F/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/include -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources/armv6 -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources -c /Users/iphonedev/Documents/Stage/Framework/ItemSelector/ItemSelector_Prefix.pch -o /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-bmldcrnanyroieesbuapiyjnmegt/ItemSelector_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dbclyfwddtulkigqkiisxmdeylbk/ItemSelector_Prefix.pch.gch ItemSelector_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s297848138.844890
+e297848142.114172
+r1
+xProcessPCH
+x/var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dbclyfwddtulkigqkiisxmdeylbk/ItemSelector_Prefix.pch.gch
+xItemSelector_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile ItemSelector_Prefix.pch297848138#297848142#0(0"0(0#0#79"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/ItemSelector_Prefix.pch8615756512#1907"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv LANG en_US.US-ASCII    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-generated-files.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-own-target-headers.hmap -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-all-target-headers.hmap -iquote /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector-project-headers.hmap -F/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/include -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources/armv7 -I/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/DerivedSources -c /Users/iphonedev/Documents/Stage/Framework/ItemSelector/ItemSelector_Prefix.pch -o /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dbclyfwddtulkigqkiisxmdeylbk/ItemSelector_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/iphonedev/Library/MobileDevice/Provisioning Profiles/D4CC2514-7864-4288-9DE7-4AF2BA8CA315.mobileprovision" /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/embedded.mobileprovision
+s297848161.319766
+e297848161.385674
+r1
+xProcessProductPackaging
+x/Users/iphonedev/Library/MobileDevice/Provisioning Profiles/D4CC2514-7864-4288-9DE7-4AF2BA8CA315.mobileprovision
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/embedded.mobileprovision
+lSLF07#2@201"ProcessProductPackaging "/Users/iphonedev/Library/MobileDevice/Provisioning Profiles/D4CC2514-7864-4288-9DE7-4AF2BA8CA315.mobileprovision" build/Debug-iphoneos/ItemSelector.app/embedded.mobileprovision297848161#297848161#0(0"0(0#0#118"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/embedded.mobileprovision8615586016#476"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/iphonedev/Library/MobileDevice/Provisioning Profiles/D4CC2514-7864-4288-9DE7-4AF2BA8CA315.mobileprovision" -o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector.xcent
+s297848161.395550
+e297848161.435865
+r1
+xProcessProductPackaging
+x/Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector.xcent
+lSLF07#2@195"ProcessProductPackaging /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector.xcent297848161#297848161#0(0"0(0#0#133"/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector.xcent8602283264#496"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer_Beta/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/ItemSelector.build/Debug-iphoneos/ItemSelector.build/ItemSelector.xcent0#
+
+CTouch /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app
+s297848161.385812
+e297848161.395334
+r1
+xTouch
+x/Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app
+lSLF07#2@99"Touch /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app297848161#297848161#0(0"0(0#0#0"8612568160#313"    cd /Users/iphonedev/Documents/Stage/Framework/ItemSelector    setenv PATH "/Developer_Beta/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer_Beta/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/iphonedev/Documents/Stage/Framework/ItemSelector/build/Debug-iphoneos/ItemSelector.app0#
+
