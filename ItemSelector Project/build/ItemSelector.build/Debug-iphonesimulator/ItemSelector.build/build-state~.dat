@@ -1,475 +1,0 @@
-TItemSelector
-v7
-r0
-t303121460.959754
-cCheck dependencies
-cProcessInfoPlistFile "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/Info.plist" ItemSelector-Info.plist
-cCompileXIB "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/MainWindow.xib"
-cCpResource build/Debug-iphonesimulator/ItemSelector.app/item1.png item1.png
-cCpResource build/Debug-iphonesimulator/ItemSelector.app/item2.png item2.png
-cCpResource build/Debug-iphonesimulator/ItemSelector.app/item3.png item3.png
-cCpResource build/Debug-iphonesimulator/ItemSelector.app/item4.png item4.png
-cCpResource build/Debug-iphonesimulator/ItemSelector.app/overflowMax.png GSItemSelector.framework/../overflowMax.png
-cCpResource build/Debug-iphonesimulator/ItemSelector.app/overflowMin.png GSItemSelector.framework/../overflowMin.png
-cCpResource build/Debug-iphonesimulator/ItemSelector.app/item5.png item5.png
-cCpResource build/Debug-iphonesimulator/ItemSelector.app/item6.png item6.png
-cProcessPCH /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dkrqjrxqurnqitbyjenvwdtebhgr/ItemSelector_Prefix.pch.gch ItemSelector_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/main.o "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/ItemSelectorAppDelegate.o "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/ItemSelectorAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/ItemSelector.o "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/GSItemSelector.framework/ItemSelector.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/AppController.o "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/AppController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/ItemSelectorController.o "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/ItemSelectorController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/ItemSelector" normal i386
-cGenerateDSYMFile "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app.dSYM" "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/ItemSelector"
-cTouch "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app"
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C284D700000000000000132
-t1277709680
-s306
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFDFE39000000000027C7D0
-t1274936889
-s2607056
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFDFE7C000000000029D5D0
-t1274936956
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CALayer.h
-c000000004C04586C00000000000075CA
-t1275353196
-s30154
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C04586B00000000000000C4
-t1275353195
-s196
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C0458E90000000000151D30
-t1275353321
-s1383728
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471620000000001D47210
-t1275359586
-s30700048
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/AppController.h
-c000000004C10B3FC0000000000000128
-t1276163068
-s296
-i<UIKit/UIKit.h>
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/AppController.m
-c000000004C10B42900000000000005F0
-t1276163113
-s1520
-i"AppController.h"
-i"ItemSelectorController.h"
-i<QuartzCore/QuartzCore.h>
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/ItemSelector.h
-c000000004C0F890900000000000002EB
-t1276086537
-s747
-i<UIKit/UIKit.h>
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/ItemSelectorAppDelegate.h
-c000000004C0F608200000000000001C8
-t1276076162
-s456
-i<UIKit/UIKit.h>
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/ItemSelectorAppDelegate.m
-c000000004C10B2FB000000000000033C
-t1276162811
-s828
-i"ItemSelectorAppDelegate.h"
-i"AppController.h"
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/ItemSelectorController.h
-c000000004C10B2AF00000000000000F0
-t1276162735
-s240
-i<UIKit/UIKit.h>
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/ItemSelectorController.m
-c000000004C15EF360000000000000BC2
-t1276505910
-s3010
-i"ItemSelectorController.h"
-i"ItemSelector.h"
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/GSItemSelector.framework/../overflowMax.png
-c000000004C0F5C97000000000000073E
-t1276075159
-s1854
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/GSItemSelector.framework/../overflowMin.png
-c000000004C0F5C9700000000000005F0
-t1276075159
-s1520
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/GSItemSelector.framework/ItemSelector.h
-c000000004C18ECFB0000000000000425
-t1276701947
-s1061
-i<UIKit/UIKit.h>
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/GSItemSelector.framework/ItemSelector.m
-c000000004C235D1F0000000000001889
-t1277386015
-s6281
-i"ItemSelector.h"
-i<QuartzCore/CALayer.h>
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/ItemSelector_Prefix.pch
-c000000004C0D116B00000000000000C1
-t1275924843
-s193
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/MainWindow.xib
-c000000004C0F60860000000000003FB6
-t1276076166
-s16310
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app
-t1281428660
-s476
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app.dSYM
-t1281428660
-s102
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/Info.plist
-t1281428652
-s720
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/ItemSelector
-t1281428660
-s30544
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/MainWindow.nib
-t1281428655
-s1032
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/PkgInfo
-t1281428652
-s8
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/item1.png
-t1281428652
-s3546
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/item2.png
-t1281428653
-s9839
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/item3.png
-t1281428652
-s3374
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/item4.png
-t1281428652
-s3780
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/item5.png
-t1281428652
-s2753
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/item6.png
-t1281428652
-s3959
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/overflowMax.png
-t1281428652
-s1854
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/overflowMin.png
-t1281428652
-s1520
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/AppController.o
-t1281428660
-s39152
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/ItemSelector.LinkFileList
-c000000004C610CAC0000000000000338
-t1281428652
-s824
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/ItemSelector.o
-t1281428660
-s54876
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/ItemSelectorAppDelegate.o
-t1281428660
-s47164
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/ItemSelectorController.o
-t1281428660
-s39288
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/main.o
-t1281428660
-s6348
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/item1.png
-c000000004C610BDF0000000000000DDA
-t1281428447
-s3546
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/item2.png
-c000000004C610B92000000000000266F
-t1281428370
-s9839
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/item3.png
-c000000004C610BF30000000000000D2E
-t1281428467
-s3374
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/item4.png
-c000000004C610C070000000000000EC4
-t1281428487
-s3780
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/item5.png
-c000000004C610C760000000000000AC1
-t1281428598
-s2753
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/item6.png
-c000000004C610C830000000000000F77
-t1281428611
-s3959
-
-N/Users/iphonedev/Documents/Stage/github/ItemSelector Project/main.m
-c000000004C0D116B0000000000000169
-t1275924843
-s361
-i<UIKit/UIKit.h>
-
-N/var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dkrqjrxqurnqitbyjenvwdtebhgr/ItemSelector_Prefix.pch.gch
-t1281428659
-s15232016
-
-NItemSelector-Info.plist
-c000000004C10982D0000000000000464
-t1276155949
-s1124
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies303121452#303121452#0(0"0(0#1#0"8612255040#0"0#
-
-CCompileC build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/AppController.o "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/AppController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s303121460.389530
-e303121460.516780
-r1
-xCompileC
-xbuild/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/AppController.o
-x/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/AppController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/AppController.m303121460#303121460#0(0"0(0#0#84"/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/AppController.m8612522560#2291"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-generated-files.hmap" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-own-target-headers.hmap" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-all-target-headers.hmap" -iquote "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-project-headers.hmap" "-F/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/include" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/DerivedSources/i386" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/DerivedSources" -include /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dkrqjrxqurnqitbyjenvwdtebhgr/ItemSelector_Prefix.pch -c "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/AppController.m" -o "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/AppController.o"0#
-
-CCompileC build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/ItemSelector.o "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/GSItemSelector.framework/ItemSelector.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s303121460.228457
-e303121460.389389
-r1
-xCompileC
-xbuild/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/ItemSelector.o
-x/Users/iphonedev/Documents/Stage/github/ItemSelector Project/GSItemSelector.framework/ItemSelector.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@108"Compile /Users/iphonedev/Documents/Stage/github/ItemSelector Project/GSItemSelector.framework/ItemSelector.m303121460#303121460#0(0"0(0#0#100"/Users/iphonedev/Documents/Stage/github/ItemSelector Project/GSItemSelector.framework/ItemSelector.m8603956224#2306"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-generated-files.hmap" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-own-target-headers.hmap" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-all-target-headers.hmap" -iquote "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-project-headers.hmap" "-F/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/include" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/DerivedSources/i386" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/DerivedSources" -include /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dkrqjrxqurnqitbyjenvwdtebhgr/ItemSelector_Prefix.pch -c "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/GSItemSelector.framework/ItemSelector.m" -o "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/ItemSelector.o"0#
-
-CCompileC build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/ItemSelectorAppDelegate.o "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/ItemSelectorAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s303121460.131579
-e303121460.228313
-r1
-xCompileC
-xbuild/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/ItemSelectorAppDelegate.o
-x/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/ItemSelectorAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@102"Compile /Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/ItemSelectorAppDelegate.m303121460#303121460#0(0"0(0#0#94"/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/ItemSelectorAppDelegate.m8606774144#2311"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-generated-files.hmap" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-own-target-headers.hmap" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-all-target-headers.hmap" -iquote "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-project-headers.hmap" "-F/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/include" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/DerivedSources/i386" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/DerivedSources" -include /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dkrqjrxqurnqitbyjenvwdtebhgr/ItemSelector_Prefix.pch -c "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/ItemSelectorAppDelegate.m" -o "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/ItemSelectorAppDelegate.o"0#
-
-CCompileC build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/ItemSelectorController.o "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/ItemSelectorController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s303121460.516915
-e303121460.617907
-r1
-xCompileC
-xbuild/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/ItemSelectorController.o
-x/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/ItemSelectorController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@101"Compile /Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/ItemSelectorController.m303121460#303121460#0(0"0(0#0#93"/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/ItemSelectorController.m8609168960#2309"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-generated-files.hmap" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-own-target-headers.hmap" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-all-target-headers.hmap" -iquote "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-project-headers.hmap" "-F/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/include" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/DerivedSources/i386" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/DerivedSources" -include /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dkrqjrxqurnqitbyjenvwdtebhgr/ItemSelector_Prefix.pch -c "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/Classes/ItemSelectorController.m" -o "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/ItemSelectorController.o"0#
-
-CCompileC build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/main.o "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s303121459.991515
-e303121460.131446
-r1
-xCompileC
-xbuild/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/main.o
-x/Users/iphonedev/Documents/Stage/github/ItemSelector Project/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/iphonedev/Documents/Stage/github/ItemSelector Project/main.m303121459#303121460#0(0"0(0#0#67"/Users/iphonedev/Documents/Stage/github/ItemSelector Project/main.m8611267488#2265"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-generated-files.hmap" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-own-target-headers.hmap" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-all-target-headers.hmap" -iquote "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-project-headers.hmap" "-F/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/include" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/DerivedSources/i386" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/DerivedSources" -include /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dkrqjrxqurnqitbyjenvwdtebhgr/ItemSelector_Prefix.pch -c "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/main.m" -o "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/main.o"0#
-
-CCompileXIB "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/MainWindow.xib"
-s303121452.826855
-e303121455.618932
-r1
-xCompileXIB
-x/Users/iphonedev/Documents/Stage/github/ItemSelector Project/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib303121452#303121455#0(0"0(0#0#75"/Users/iphonedev/Documents/Stage/github/ItemSelector Project/MainWindow.xib8605277984#647"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/MainWindow.nib" "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCpResource build/Debug-iphonesimulator/ItemSelector.app/item1.png item1.png
-s303121452.828967
-e303121452.982978
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ItemSelector.app/item1.png
-xitem1.png
-lSLF07#2@14"Copy item1.png303121452#303121452#0(0"0(0#0#70"/Users/iphonedev/Documents/Stage/github/ItemSelector Project/item1.png8603849120#530"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/item1.png" "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app"0#
-
-CCpResource build/Debug-iphonesimulator/ItemSelector.app/item2.png item2.png
-s303121452.830683
-e303121453.057119
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ItemSelector.app/item2.png
-xitem2.png
-lSLF07#2@14"Copy item2.png303121452#303121453#0(0"0(0#0#70"/Users/iphonedev/Documents/Stage/github/ItemSelector Project/item2.png8593525184#530"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/item2.png" "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app"0#
-
-CCpResource build/Debug-iphonesimulator/ItemSelector.app/item3.png item3.png
-s303121452.832746
-e303121452.988585
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ItemSelector.app/item3.png
-xitem3.png
-lSLF07#2@14"Copy item3.png303121452#303121452#0(0"0(0#0#70"/Users/iphonedev/Documents/Stage/github/ItemSelector Project/item3.png8604752768#530"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/item3.png" "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app"0#
-
-CCpResource build/Debug-iphonesimulator/ItemSelector.app/item4.png item4.png
-s303121452.833986
-e303121452.975536
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ItemSelector.app/item4.png
-xitem4.png
-lSLF07#2@14"Copy item4.png303121452#303121452#0(0"0(0#0#70"/Users/iphonedev/Documents/Stage/github/ItemSelector Project/item4.png8611797024#530"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/item4.png" "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app"0#
-
-CCpResource build/Debug-iphonesimulator/ItemSelector.app/item5.png item5.png
-s303121452.840281
-e303121452.966599
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ItemSelector.app/item5.png
-xitem5.png
-lSLF07#2@14"Copy item5.png303121452#303121452#0(0"0(0#0#70"/Users/iphonedev/Documents/Stage/github/ItemSelector Project/item5.png8604056896#530"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/item5.png" "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app"0#
-
-CCpResource build/Debug-iphonesimulator/ItemSelector.app/item6.png item6.png
-s303121452.842460
-e303121452.980349
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ItemSelector.app/item6.png
-xitem6.png
-lSLF07#2@14"Copy item6.png303121452#303121452#0(0"0(0#0#70"/Users/iphonedev/Documents/Stage/github/ItemSelector Project/item6.png8607710112#530"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/item6.png" "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app"0#
-
-CCpResource build/Debug-iphonesimulator/ItemSelector.app/overflowMax.png GSItemSelector.framework/../overflowMax.png
-s303121452.835988
-e303121452.981027
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ItemSelector.app/overflowMax.png
-xGSItemSelector.framework/../overflowMax.png
-lSLF07#2@48"Copy GSItemSelector.framework/../overflowMax.png303121452#303121452#0(0"0(0#0#104"/Users/iphonedev/Documents/Stage/github/ItemSelector Project/GSItemSelector.framework/../overflowMax.png8605638208#564"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/GSItemSelector.framework/../overflowMax.png" "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app"0#
-
-CCpResource build/Debug-iphonesimulator/ItemSelector.app/overflowMin.png GSItemSelector.framework/../overflowMin.png
-s303121452.838077
-e303121452.989352
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ItemSelector.app/overflowMin.png
-xGSItemSelector.framework/../overflowMin.png
-lSLF07#2@48"Copy GSItemSelector.framework/../overflowMin.png303121452#303121452#0(0"0(0#0#104"/Users/iphonedev/Documents/Stage/github/ItemSelector Project/GSItemSelector.framework/../overflowMin.png8606851296#564"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/GSItemSelector.framework/../overflowMin.png" "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app"0#
-
-CGenerateDSYMFile "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app.dSYM" "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/ItemSelector"
-s303121460.907778
-e303121460.937209
-r1
-xGenerateDSYMFile
-x/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app.dSYM
-x/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/ItemSelector
-lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/ItemSelector.app.dSYM build/Debug-iphonesimulator/ItemSelector.app/ItemSelector303121460#303121460#0(0"0(0#0#118"/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/ItemSelector8607995936#470"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/ItemSelector" -o "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app.dSYM"0#
-
-CLd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/ItemSelector" normal i386
-s303121460.618041
-e303121460.907642
-r1
-xLd
-x/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/ItemSelector
-xnormal
-xi386
-lSLF07#2@123"Link /Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/ItemSelector303121460#303121460#0(0"0(0#0#0"8604836512#1067"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk "-L/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator" "-F/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator" -filelist "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/Objects-normal/i386/ItemSelector.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/ItemSelector"0#
-
-CProcessInfoPlistFile "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/Info.plist" ItemSelector-Info.plist
-s303121452.802206
-e303121452.826729
-r1
-xProcessInfoPlistFile
-x/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/Info.plist
-xItemSelector-Info.plist
-lSLF07#2@31"Process ItemSelector-Info.plist303121452#303121452#0(0"0(0#0#84"/Users/iphonedev/Documents/Stage/github/ItemSelector Project/ItemSelector-Info.plist8605343104#566"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ItemSelector-Info.plist -genpkginfo "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app/Info.plist"0#
-
-CProcessPCH /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dkrqjrxqurnqitbyjenvwdtebhgr/ItemSelector_Prefix.pch.gch ItemSelector_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s303121455.619164
-e303121459.991322
-r1
-xProcessPCH
-x/var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dkrqjrxqurnqitbyjenvwdtebhgr/ItemSelector_Prefix.pch.gch
-xItemSelector_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile ItemSelector_Prefix.pch303121455#303121459#0(0"0(0#0#84"/Users/iphonedev/Documents/Stage/github/ItemSelector Project/ItemSelector_Prefix.pch8609543840#2128"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-generated-files.hmap" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-own-target-headers.hmap" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-all-target-headers.hmap" -iquote "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/ItemSelector-project-headers.hmap" "-F/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/include" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/DerivedSources/i386" "-I/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/ItemSelector.build/Debug-iphonesimulator/ItemSelector.build/DerivedSources" -c "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/ItemSelector_Prefix.pch" -o /var/folders/eO/eOPtF0vcE0Gy71Mt+N1E0U+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/ItemSelector_Prefix-dkrqjrxqurnqitbyjenvwdtebhgr/ItemSelector_Prefix.pch.gch0#
-
-CTouch "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app"
-s303121460.937332
-e303121460.959687
-r1
-xTouch
-x/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app
-lSLF07#2@111"Touch /Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app303121460#303121460#0(0"0(0#0#0"8607632640#331"    cd "/Users/iphonedev/Documents/Stage/github/ItemSelector Project"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/iphonedev/Documents/Stage/github/ItemSelector Project/build/Debug-iphonesimulator/ItemSelector.app"0#
-
