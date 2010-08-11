@@ -11,6 +11,15 @@
 
 @implementation GSFadeMessageView
 
+
+/////////////////////////////////////////////////////////////////////////////
+// MARK: -
+// MARK: Constants
+/////////////////////////////////////////////////////////////////////////////
+const float kWidth_landscape = 400;
+const float kWidth_portrait = 300;
+const float kHeight = 120;
+
 /////////////////////////////////////////////////////////////////////////////
 // MARK: -
 // MARK: Accessors
@@ -24,16 +33,48 @@
 /////////////////////////////////////////////////////////////////////////////
 
 - (id)init {
-    if ((self = [super initWithFrame:CGRectMake(VIEW_X, VIEW_Y, VIEW_WIDTH, VIEW_HEIGHT)])) {
+	UIDeviceOrientation currentOrientation = [[UIDevice currentDevice] orientation];
+	
+	
+	CGFloat viewWidth = 0.f;
+	CGFloat viewHeight = 0.f;
+	CGFloat viewX = 0.f;
+	CGFloat viewY = 0.f;
+	CGFloat labelWidth = 0.f;
+	CGRect screenFrame = [[UIScreen mainScreen] bounds];
+	
+	// set frame properties
+	switch (currentOrientation) {
+		case UIDeviceOrientationLandscapeRight:
+		case UIDeviceOrientationLandscapeLeft:
+			viewWidth = kWidth_landscape;
+			viewHeight = kHeight;
+			break;
+		case UIDeviceOrientationPortrait:
+		case UIDeviceOrientationPortraitUpsideDown:
+			viewWidth = kWidth_portrait;
+			viewHeight = kHeight;
+			break;
+		default:
+			viewWidth = kWidth_portrait;
+			viewHeight = kHeight;
+			break;
+	}
+
+	viewX = (screenFrame.size.width - viewWidth) / 2;
+	viewY = (screenFrame.size.height - viewHeight) / 2;
+	labelWidth = viewWidth-20;
+	
+    if ((self = [super initWithFrame:CGRectMake(viewX, viewY, viewWidth, viewHeight)])) {
 		// Self settings
         self.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.6];
 		self.layer.cornerRadius = 10.f;
-		self.userInteractionEnabled = NO;
+		self.userInteractionEnabled = YES;
 		self.hidden = NO;
 		self.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin;
 		
 		// _title settings
-		_title = [[UILabel alloc] initWithFrame:CGRectMake(LABEL_X, 20, LABEL_WIDTH, 50)];
+		_title = [[UILabel alloc] initWithFrame:CGRectMake(10, 20, labelWidth, 50)];
 		_title.autoresizingMask = UIViewAutoresizingFlexibleWidth;
 		_title.backgroundColor = [UIColor clearColor];
 		_title.text = nil;
@@ -43,7 +84,7 @@
 		[self addSubview:_title];
 		
 		// _message settigns
-		_message = [[UILabel alloc] initWithFrame:CGRectMake(LABEL_X, 68, LABEL_WIDTH, 30)];
+		_message = [[UILabel alloc] initWithFrame:CGRectMake(10, 68, labelWidth, 30)];
 		_message.autoresizingMask = UIViewAutoresizingFlexibleWidth;
 		_message.backgroundColor = [UIColor clearColor];
 		_message.text = nil;
@@ -56,7 +97,7 @@
 		_fadeDuration = 2;
     }
 	
-	UIDeviceOrientation currentOrientation = [[UIDevice currentDevice] orientation];
+	
 	switch (currentOrientation) {
 		case UIDeviceOrientationLandscapeRight:
 			self.transform = CGAffineTransformRotate(self.transform, 3*M_PI/2);
@@ -88,17 +129,31 @@
 // MARK: UIView methods
 /////////////////////////////////////////////////////////////////////////////
 
-
 /////////////////////////////////////////////////////////////////////////////
 // MARK: -
 // MARK: GSFadeMessage methods
 /////////////////////////////////////////////////////////////////////////////
++(id)fadeMessageWithTitle:(NSString*)title message:(NSString*)message duration:(NSInteger)duration
+{
+	id fadeMessage = [[GSFadeMessageView new] autorelease];
+	[fadeMessage setTitle:title];
+	[fadeMessage setMessage:message];
+	if (duration > 0) {
+		[fadeMessage setFadeDuration:duration];
+	}
+	
+	[fadeMessage show];
+	[fadeMessage dismiss];
+	
+	return fadeMessage;
+}
+
 #define FONT_SIZE_MAX_TITLE	40
 #define FONT_SIZE_MIN_TITLE	20
 - (void)setTitle:(NSString*)title
 {
 	CGSize titleSizeMax = [title sizeWithFont:[UIFont boldSystemFontOfSize:FONT_SIZE_MAX_TITLE]];
-	if (titleSizeMax.width <= LABEL_WIDTH) {
+	if (titleSizeMax.width <= _title.frame.size.width) {
 		_title.font = [UIFont boldSystemFontOfSize:FONT_SIZE_MAX_TITLE];
 	}
 	else {
@@ -112,7 +167,7 @@
 - (void)setMessage:(NSString*)message
 {
 	CGSize messageSizeMax = [message sizeWithFont:[UIFont boldSystemFontOfSize:FONT_SIZE_MAX_MESSAGE]];
-	if (messageSizeMax.width <= LABEL_WIDTH) {
+	if (messageSizeMax.width <= _message.frame.size.width) {
 		_message.font = [UIFont boldSystemFontOfSize:FONT_SIZE_MAX_MESSAGE];
 	}
 	else {
@@ -121,19 +176,20 @@
 	_message.text = message;
 }
 
-- (void)display
+- (void)show
 {
 	[self removeFromSuperview];
 	self.layer.opacity = 1;
-	[[[UIApplication sharedApplication] keyWindow] addSubview:self]; 
+	UIWindow *window = [[UIApplication sharedApplication] keyWindow];
+	[window addSubview:self];
+	[window bringSubviewToFront:self];
 }
 
-- (void)fade
+- (void)dismiss
 {
-	[UIView beginAnimations:nil context:NULL];
-	[UIView setAnimationDuration:_fadeDuration];
-	self.layer.opacity = 0;
-	[UIView commitAnimations];
-}
+	[UIView animateWithDuration:_fadeDuration animations:^{
+		self.layer.opacity = 0;
+	}];
+}	
 
 @end
