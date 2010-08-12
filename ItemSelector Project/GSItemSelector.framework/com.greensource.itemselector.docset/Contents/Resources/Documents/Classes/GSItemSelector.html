@@ -1,0 +1,180 @@
+<!DOCTYPE html><html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>GSItemSelector Class Reference</title>
+<meta id="Generator" name="Generator" content="Doxyclean">
+<meta id="GeneratorVersion" name="GeneratorVersion" content="2.2">
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+<link rel="stylesheet" type="text/css" media="screen" href="../css/screen.css">
+<link rel="stylesheet" type="text/css" media="print" href="../css/print.css">
+<script type="text/javascript">
+				function toggleTOC() {
+					var toc = document.getElementById('tableOfContents');
+					var tocButton = document.getElementById('toc_button');
+					var contents = document.getElementById('contents');
+					if (toc.style.display == 'block') {
+						toc.style.display = 'none';
+						contents.className = '';
+						tocButton.className = '';
+					} else {
+						toc.style.display = 'block';
+						contents.className = 'tableOfContentsOpen';
+						tocButton.className = 'open';
+					}
+				}
+				
+				function toggleTOCItem() {
+					var listItem = event.srcElement;
+					var sublist = listItem.getElementsByTagName('ul')[0];
+					if (sublist.style.display == 'block') {
+						sublist.style.display = 'none';
+						listItem.className = 'expandable';
+					} else {
+						sublist.style.display = 'block';
+						listItem.className = 'expandable expanded';
+					}
+				}
+				
+				function jumpTo() {
+					selectedItem = event.srcElement.options[event.srcElement.selectedIndex].value;
+					window.location = "#" + selectedItem;
+				}
+			</script>
+</head>
+<body>
+<header id="projectHeader"><h1><a href="../index.html">Untitled Reference Library</a></h1></header><header id="fileHeader"><h1><a href="#classTitle">GSItemSelector Class Reference</a></h1></header><nav id="buttons"><ul>
+<li id="toc_button"><button id="table_of_contents" onclick="toggleTOC()">Table of Contents</button></li>
+<li id="jumpto_button"><select id="jumpto" onchange="jumpTo()"><option value="classTitle">Jump To...</option>
+<option value="tasks">Tasks</option>
+<option value="properties">Properties</option>
+<option value="color">    color</option>
+<option value="borderColor">    borderColor</option>
+<option value="selectedItemIndex">    selectedItemIndex</option>
+<option value="instanceMethods">Instance Methods</option>
+<option value="addItem:">    - addItem:</option>
+<option value="removeItem:">    - removeItem:</option>
+<option value="setMenuPosition:">    - setMenuPosition:</option>
+<option value="putAside:">    - putAside:</option></select></li>
+</ul></nav><nav id="tableOfContents" style="display: none;"><ul>
+<li class="expandable" id="tocTasks" onclick="toggleTOCItem()">
+<a href="#tasks">Tasks</a><ul style="display: none;">
+<li><a href="#Other">Other</a></li>
+<li><a href="#Other">Other</a></li>
+</ul>
+</li>
+<li class="expandable" id="tocProperties" onclick="toggleTOCItem()">
+<a href="#properties">Properties</a><ul style="display: none;">
+<li><a href="#color">color</a></li>
+<li><a href="#borderColor">borderColor</a></li>
+<li><a href="#selectedItemIndex">selectedItemIndex</a></li>
+</ul>
+</li>
+<li class="expandable" id="tocInstanceMethods" onclick="toggleTOCItem()">
+<a href="#instanceMethods">Instance Methods</a><ul style="display: none;">
+<li><a href="#addItem:">addItem:</a></li>
+<li><a href="#removeItem:">removeItem:</a></li>
+<li><a href="#setMenuPosition:">setMenuPosition:</a></li>
+<li><a href="#putAside:">putAside:</a></li>
+</ul>
+</li>
+</ul></nav><div id="contents">
+<h1 id="classTitle">GSItemSelector Class Reference</h1>
+<table id="metadata"><tr class="alt">
+<th>Declared in</th>
+<td>GSItemSelector.h</td>
+</tr></table>
+<h2 id="tasks">Tasks</h2>
+<ul id="tasksList">
+    <li id="Other">
+<h3>Other</h3>
+<ul class="methods">
+<li><span class="tooltipRegion"><code><a href="#color">color</a></code> <span class="specialType">property</span><span class="tooltip">
+            color property Change the backgroung color of the menu 
+          </span></span></li>
+<li><span class="tooltipRegion"><code><a href="#borderColor">borderColor</a></code> <span class="specialType">property</span><span class="tooltip">
+            borderColor Property Change the border color of the Menu 
+          </span></span></li>
+<li><span class="tooltipRegion"><code><a href="#selectedItemIndex">selectedItemIndex</a></code> <span class="specialType">property</span><span class="tooltip">
+            selectedItemIndex property Use this property to select an item, this action make the corrsponding item highlighted 
+          </span></span></li>
+</ul>
+</li>
+    <li id="Other">
+<h3>Other</h3>
+<ul class="methods">
+<li><span class="tooltipRegion"><code><a href="#addItem:">- addItem:</a></code><span class="tooltip">
+            Add an item at the end of the menu. 
+          </span></span></li>
+<li><span class="tooltipRegion"><code><a href="#removeItem:">- removeItem:</a></code><span class="tooltip">
+            Remove the item gift in parameter from the menu. 
+          </span></span></li>
+<li><span class="tooltipRegion"><code><a href="#setMenuPosition:">- setMenuPosition:</a></code><span class="tooltip">
+            Choose the position of the menu. For now only LEFT and RIGHT position are allowed. 
+          </span></span></li>
+<li><span class="tooltipRegion"><code><a href="#putAside:">- putAside:</a></code><span class="tooltip">
+            Move the menu out of the screen and show only a little strip wich enable user to get back the menu. 
+          </span></span></li>
+</ul>
+</li>
+  </ul>
+<section id="properties"><h2>Properties</h2>
+<section class="definition" id="color"><h3>color</h3>
+            <p>color property Change the backgroung color of the menu </p>
+          <code class="methodDeclaration">@property UIColor *color</code><h5>Declared In</h5>
+<code><code>GSItemSelector</code>.h</code></section><section class="definition" id="borderColor"><h3>borderColor</h3>
+            <p>borderColor Property Change the border color of the Menu </p>
+          <code class="methodDeclaration">@property UIColor *borderColor</code><h5>Declared In</h5>
+<code><code>GSItemSelector</code>.h</code></section><section class="definition" id="selectedItemIndex"><h3>selectedItemIndex</h3>
+            <p>selectedItemIndex property Use this property to select an item, this action make the corrsponding item highlighted </p>
+          <code class="methodDeclaration">@property NSInteger selectedItemIndex</code><h5>Declared In</h5>
+<code><code>GSItemSelector</code>.h</code></section></section><section id="instanceMethods"><h2>Instance Methods</h2>
+<section class="definition" id="addItem:"><h3>addItem:</h3>
+            <p>Add an item at the end of the menu. </p>
+          <code class="methodDeclaration">- (void)addItem:(UIControl *)<span class="parameter">item</span> </code><h5>Parameters</h5>
+<dl class="parameterList">
+          <dt>item</dt>
+<dd>
+              <p>The added item. </p>
+            </dd>
+        </dl>
+<h5>Declared In</h5>
+<code><code>GSItemSelector</code>.h</code></section><section class="definition" id="removeItem:"><h3>removeItem:</h3>
+            <p>Remove the item gift in parameter from the menu. </p>
+          <code class="methodDeclaration">- (void)removeItem:(UIControl *)<span class="parameter">item</span> </code><h5>Parameters</h5>
+<dl class="parameterList">
+          <dt>item</dt>
+<dd>
+              <p>The removed item </p>
+            </dd>
+        </dl>
+<h5>Declared In</h5>
+<code><code>GSItemSelector</code>.h</code></section><section class="definition" id="setMenuPosition:"><h3>setMenuPosition:</h3>
+            <p>Choose the position of the menu. For now only LEFT and RIGHT position are allowed. </p>
+          <code class="methodDeclaration">- (void)setMenuPosition:(ItemSelectorPosition)<span class="parameter">position</span> </code><h5>Parameters</h5>
+<dl class="parameterList">
+          <dt>position</dt>
+<dd>
+              <p>The new position for the menu </p>
+            </dd>
+        </dl>
+<h5>Declared In</h5>
+<code><code>GSItemSelector</code>.h</code></section><section class="definition" id="putAside:"><h3>putAside:</h3>
+            <p>Move the menu out of the screen and show only a little strip wich enable user to get back the menu. </p>
+          <code class="methodDeclaration">- (void)putAside:(BOOL)<span class="parameter">mustPutAside</span> </code><h5>Parameters</h5>
+<dl class="parameterList">
+          <dt>mustPutAside</dt>
+<dd>
+              <p>YES if the menu must be hide, otherwise NO. </p>
+            </dd>
+        </dl>
+<h5>Declared In</h5>
+<code><code>GSItemSelector</code>.h</code></section></section><hr>
+<p id="lastUpdated">Last updated: 2010-8-12</p>
+</div>
+<footer id="breadcrumbs"><ul>
+<li><a href="../index.html">Untitled</a></li>
+<li><a href="#classTitle">GSItemSelector Class Reference</a></li>
+</ul></footer>
+</body>
+</html>
